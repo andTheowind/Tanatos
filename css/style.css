@@ -432,6 +432,18 @@ section .soc-icons div {
     .cards .caption {
         margin: 0 10px 0 10px;
     }
+    header h1 {
+        font-size: 42px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .card-body h5 {
+        font-size: 23px;
+    }
+    .John-Smith blockquote {
+        font-size: 20px;
+    }
 
 }
 @media screen and (max-width: 414px) {
