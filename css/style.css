@@ -90,9 +90,10 @@ header .btn-outline-secondary:hover {
 .arrow {
     padding: 196px 0 50px 0;
 }
-.cards {
-    margin: 20px 130px 75px 130px;
-}
+
+/*cards*/
+
+
 .thumbnail h3 {
     margin-top: 25px;
     margin-bottom: 15px;
@@ -188,7 +189,7 @@ h2 > span {
     padding-top: 77px;
 }
 .our-works img {
-    margin: 15px;
+    margin: 15px 0;
 }
 .our-works button {
     color: #000;
@@ -432,4 +433,19 @@ section .soc-icons div {
         margin: 0 10px 0 10px;
     }
 
+}
+@media screen and (max-width: 414px) {
+    #mobile-input {
+        max-width: 170px;
+    }
+}
+@media screen and (min-width: 767px) {
+    .our-works img {
+        margin: 15px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .cards {
+        margin: 20px 130px 75px 130px;
+    }
 }
