@@ -374,7 +374,7 @@ section .soc-icons div {
 }
 #dot {
     color: #d42a44;
-    font-size: 25px;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 960px) {
