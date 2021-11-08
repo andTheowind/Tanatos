@@ -450,6 +450,18 @@ section .soc-icons div {
     #mobile-input {
         max-width: 170px;
     }
+    .footer-copyright p:first-child {
+        padding-left: 5px;
+    }
+    .footer-copyright p:last-child {
+        padding-right: 5px;
+        text-align:right;
+    }
+}
+@media screen and (max-width: 340px) {
+    .btn-and-icons {
+        flex-direction: column;
+    }
 }
 @media screen and (min-width: 767px) {
     .our-works img {
