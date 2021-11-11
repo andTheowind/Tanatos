@@ -24,7 +24,7 @@ html {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
 }
 .navbar-toggler p {
-    margin-top: 4px;
+    margin-top: 6px;
     margin-bottom: 0;
     margin-right: 10px;
 }
@@ -459,8 +459,23 @@ section .soc-icons div {
     }
 }
 @media screen and (max-width: 340px) {
+    .navbar {
+        padding: 50px 8% 0 8%;
+    }
+    .navbar-toggler p {
+        margin-right: 6px;
+    }
+    #mobile-input {
+        max-width: 160px;
+    }
+    .for-letters .btn {
+        max-width: 120px;
+    }
     .btn-and-icons {
         flex-direction: column;
+    }
+    .btn-and-icons .btn {
+        margin-top: 20px;
     }
 }
 @media screen and (min-width: 767px) {
